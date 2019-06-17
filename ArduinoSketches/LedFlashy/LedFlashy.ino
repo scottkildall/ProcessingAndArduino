@@ -5,10 +5,7 @@
 
   Looks for a Serial Input from Processing
   By Scott Kildall
-
-  Exercises:
-  (1) remove the 10K resistor from ground see how the LED works. Try touching the switch and touching the resistor
-  (2) How can we make the loop() function just be 1 line of code
+  
  */
 
 // Global variables
