@@ -34,12 +34,18 @@ void loop() {
   
    if( digitalRead(switchPin) == HIGH  )   {
        digitalWrite(ledPin, HIGH);   
-       Serial.println(1);
+       //Serial.println(1);
+
+       // comment out println() above for Processing and uncomment line below
+       Serial.print(1);
    }
    
    else { 
       digitalWrite(ledPin, LOW);
-      Serial.println(0);
+      //Serial.println(0);
+
+      // comment out println() above for Processing and uncomment line below
+      Serial.print(0);
    }
 
    delay(50);
